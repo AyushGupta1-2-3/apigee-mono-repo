@@ -8,3 +8,9 @@ This Repository Structure is suitable for Organizations
 1) Largely Single-Tenant 
 2) Small to Medium Organisations with maximum of 2-3 Teams (Devops, Developer etc.) operating
 Apigee X
+
+
+How to use this repository ?
+
+1) Clone the Repository 
+2) Input the configurations 

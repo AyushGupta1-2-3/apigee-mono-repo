@@ -1,0 +1,29 @@
+<APIProxy revision="15" name="mock_proxy1">
+    <DisplayName></DisplayName>
+    <Description></Description>
+    <CreatedAt>1713417274320</CreatedAt>
+    <LastModifiedAt>1713417274320</LastModifiedAt>
+    <BasePaths>/origin</BasePaths>
+    <Policies>
+        <Policy>AM-SetTargetPathSuffix</Policy>
+        <Policy>AM-FixEncoding</Policy>
+        <Policy>Verify-API-Key-1</Policy>
+        <Policy>LC-LookupCachHttp</Policy>
+        <Policy>RC-ResponseCache</Policy>
+        <Policy>Extract-Variables-1</Policy>
+        <Policy>JavaScript-1</Policy>
+        <Policy>AM-AddLocationHeader</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources>
+        <Resource>jsc://JavaScript-1.js</Resource>
+    </Resources>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+        <TargetEndpoint>httpbin</TargetEndpoint>
+        <TargetEndpoint>reqres</TargetEndpoint>
+        <TargetEndpoint>typicode</TargetEndpoint>
+    </TargetEndpoints>
+</APIProxy>

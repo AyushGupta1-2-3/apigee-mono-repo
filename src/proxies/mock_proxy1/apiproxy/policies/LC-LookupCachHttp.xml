@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<LookupCache continueOnError="false" enabled="true" name="LC-LookupCachHttp">
+  <DisplayName>LC-LookupCachHttp</DisplayName>
+  <Properties/>
+  <CacheKey>
+    <Prefix/>
+    <KeyFragment ref="request.uri" type="string"/>
+  </CacheKey>
+  <CacheResource/>
+  <Scope>Exclusive</Scope>
+  <AssignTo>flowVar</AssignTo>
+</LookupCache>

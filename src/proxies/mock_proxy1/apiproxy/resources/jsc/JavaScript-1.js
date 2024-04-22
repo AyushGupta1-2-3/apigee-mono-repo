@@ -1,0 +1,1 @@
+ var cached_content = context.getVariable('flowVar');
